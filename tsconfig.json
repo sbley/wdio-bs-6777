@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./out-tsc/",
+    "sourceMap": false,
+    "target": "es2019",
+    "module": "commonjs",
+    "removeComments": true,
+    "types": ["node", "webdriverio/sync", "@wdio/jasmine-framework", "expect-webdriverio/jasmine"],
+    "baseUrl": ".",
+  },
+  "include": ["./**/*.ts"]
+}
